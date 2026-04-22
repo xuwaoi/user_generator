@@ -3,11 +3,7 @@ import pandas as pd
 import streamlit as st
 
 conn = psycopg2.connect(
-        dbname="generator_db",
-        user="postgres",
-        password="1234",
-        host="localhost",
-        port="5432"
+    "postgresql://postgres.mobdjjxtbmteboxhpejb:0302Ksenya!@aws-0-eu-west-1.pooler.supabase.com:6543/postgres"
 )
 st.title('Generate users')
 
